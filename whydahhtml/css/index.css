@@ -38,15 +38,11 @@
 
 
 /*--------------------banner----------------*/
-.carousel{
+#myCarousel{
     margin-top: 80px;
 }
 
 /*--------------------programa----------------*/
-.programa-box .col-md-3, .programa-box .col-sm-6,.programa-box .col-xs-12{
-    padding-left: 0;
-    padding-right: 0;
-}
 .programa-box .thumbnail{
     padding: 0;
     border: 0;
@@ -69,11 +65,113 @@
     top: 60px;
 }
 
+/*--------------------solution----------------*/
+.solution-box{
+    background: #f5f5f5;
+    padding-top: 50px;
+}
+.solution-box .carousel{
+    overflow: hidden;
+}
+.solution-box .carousel-indicators-box{
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   background: red;
+   z-index: 9;
+   height: 390px;
+   background: url(../img/index/solution_left_1.jpg) no-repeat 50% 50%;
+}
+.solution-box .carousel-indicators-box h3{
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.solution-box .carousel-indicators-box p{
+    color: #fff;
+    font-size: 14px;
+}
+.solution-box .carousel-indicators-box p span{
+    font-size: 18px;
+}
+.solution-box .carousel-indicators-box button{
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-left: 16.66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #fff;
+}
+.solution-box .carousel-indicators-box .carousel-indicators{
+    bottom: 80px;
+}
+.solution-box .solution-item{
+    height: 390px;
+}
+.solution-box .solution-item .thumbnail{
+    padding: 0;
+    height: 390px;
+    border: 0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 10px #f0f0f0;
+    -webkit-box-shadow: 0px 0px 10px #f0f0f0;
+    -moz--box-shadow: 0px 0px 10px #f0f0f0;
+    border-radius: 0;
+}
+.solution-box .solution-item h4{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.solution-box .col-md-4.solution-item{
+    padding-left: 23px;
+    padding-right: 0;
+}
+.solution-box .carousel-inner .col-md-10{
+    padding-left: 0;
+    padding-right: 0;
+}
+.solution-box .solution-item .caption{
+    padding-left: 20px;
+}
+.solution-box .solution-item .caption p{
+    font-size: 12px;
+    color: #555555;
+}
+.solution-box .carousel-inner{
+    overflow: initial;
+}
+.solution-box .solution-item .thumbnail a{
+    color: #555555;
+    font-size: 12px;
+    display: block;
+    background: #f8f8f8;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*--------------------customer case----------------*/
+.customer-case-box .carousel-indicators-box{
+    background: url(../img/index/solution_left_2.jpg) no-repeat 50% 50%;
+}
+
 
 
 @media (max-width: 767px) {
     .programa-box{
-        padding: 20px 0;
+        padding: 20px 0 0px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -85,7 +183,7 @@
     }
 
     .programa-box{
-        padding: 30px 0;
+        padding: 30px 0 10px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -97,7 +195,7 @@
     }
 
     .programa-box{
-        padding: 40px 0;
+        padding: 40px 0 20px;
     }
 }
 @media (min-width: 1200px) {
@@ -109,7 +207,7 @@
     }
 
     .programa-box{
-        padding: 50px 0;
+        padding: 50px 0 30px;
     }
 }
 
