@@ -1,8 +1,9 @@
 @charset 'utf-8';
-@media (min-width: 1200px) {
-    .container {
-        width: 1200px;
-    }
+html, body{
+    width: 1200px;
+}
+.container {
+    width: 1200px;
 }
 
 
@@ -124,7 +125,7 @@
     margin-bottom: 0;
     box-shadow: 0px 0px 10px #f0f0f0;
     -webkit-box-shadow: 0px 0px 10px #f0f0f0;
-    -moz-box-shadow: 0px 0px 10px #f0f0f0;
+    -moz--box-shadow: 0px 0px 10px #f0f0f0;
     border-radius: 0;
 }
 .solution-box .solution-item h4{
@@ -347,7 +348,7 @@
     background: url(../img/index/weixin_icon.png) no-repeat 50% 50%;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .programa-box{
         padding: 20px 0 0px;
     }
@@ -437,8 +438,8 @@
     .programa-box{
         padding: 40px 0 20px;
     }
-}
-@media (min-width: 1200px) {
+}*/
+/*@media (min-width: 1200px) {
     .navbar-nav>li>a {
         padding: 24px;
     }
@@ -449,7 +450,7 @@
     .programa-box{
         padding: 50px 0 30px;
     }
-}
+}*/
 
 
 
