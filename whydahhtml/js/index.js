@@ -29,7 +29,16 @@
     var solutionSwiperInit = function() {
         var solutionSwiper = new Swiper('#js_solution', {
             loop: true,
-            pagination: '.solution-pagination',
+            pagination: '#js_solution_pagination',
+            paginationClickable: true,
+            preventLinks: false
+        })
+    }
+
+    var customerCaseSwiperInit = function() {
+        var customerCaseSwiper = new Swiper('#js_customer_case', {
+            loop: true,
+            pagination: '#js_customer_case_pagination',
             paginationClickable: true,
             preventLinks: false
         })
@@ -39,5 +48,6 @@
     $(function() {
         bannerSwiperInit();
         solutionSwiperInit();
+        customerCaseSwiperInit();
     });
 }());
