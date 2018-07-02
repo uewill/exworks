@@ -13,7 +13,8 @@
             loop: true,
             pagination: '.pagination',
             paginationClickable: true,
-            preventLinks: false
+            preventLinks: false,
+            autoplay: 3000,
         })
 
         $('.arrow-left').on('click', function(e) {
@@ -31,7 +32,8 @@
             loop: true,
             pagination: '#js_solution_pagination',
             paginationClickable: true,
-            preventLinks: false
+            preventLinks: false,
+            autoplay: 3000,
         })
     }
 
@@ -40,7 +42,8 @@
             loop: true,
             pagination: '#js_customer_case_pagination',
             paginationClickable: true,
-            preventLinks: false
+            preventLinks: false,
+            autoplay: 3000,
         })
     }
 

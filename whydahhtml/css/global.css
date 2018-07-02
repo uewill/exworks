@@ -26,6 +26,7 @@ body{background: #fff;}
     height: 80px;
     background: url(../img/logo.png) no-repeat;
     background-position: 50% 50%;
+    background-size: 193px 46px;
 }
 .header-box ul{
     display: block;
@@ -55,6 +56,206 @@ body{background: #fff;}
 /*---- footer ----*/
 .footer-wrap{
     background: #eeeeee;
+    padding: 50px 0;
+    border: 1px solid #d8d8d8;
+}
+.footer-wrap .qr-code-box{
+    float: left;
+    width: 260px;
+    position: relative;
+    overflow: hidden;
+}
+.footer-wrap .qr-code-box li{
+    position: relative;
+    overflow: hidden;
+    width: 110px;
+    float: left;
+}
+.footer-wrap .qr-code-box li:first-child + li{
+    float: right;
+}
+.footer-wrap .qr-code-box li i{
+    display: block;
+    float: left;
+    width: 110px;
+    height: 110px;
+}
+.footer-wrap .qr-code-box li i.gongzonghao{
+    background: url(../img/gongzonghao.jpg) no-repeat 50% 50%;
+}
+.footer-wrap .qr-code-box li i.fuwuhao{
+    background: url(../img/fuwuhao.jpg) no-repeat 50% 50%;
+}
+.footer-wrap .qr-code-box li h6{
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+.footer-wrap .qr-code-box > i.logo{
+    display: block;
+    float: left;
+    width: 260px;
+    height: 80px;
+    background: url(../img/logo.png) no-repeat 50% 50%;
+}
+.footer-wrap .footer-quick-answer{
+    width: 246px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+.footer-wrap .footer-quick-answer h4{
+    font-size: 20px;
+    line-height: 1;
+    color: #555;
+    margin-bottom: 20px;
+}
+.footer-wrap .footer-quick-answer h4 span{
+    font-size: 20px;
+    color: #cf191b;
+}
+.footer-wrap .footer-quick-answer input{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 34px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+.footer-wrap .footer-quick-answer input::-webkit-input-placeholder{
+    color: #888;
+}
+.footer-wrap .footer-quick-answer input::-moz-placeholder{
+    color: #888;
+}
+.footer-wrap .footer-quick-answer input::-ms-placeholder{
+    color: #888;
+}
+.footer-wrap .footer-quick-answer button{
+    width: 100%;
+    background: #cf191b;
+    border-radius: 5px;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-wrap .footer-center{
+    position: absolute;
+    width: 500px;
+    overflow: hidden;
+    top: 0;
+    left: 50%;
+    margin-left: -250px;
+    padding: 0 0 0 20px;
+}
+.footer-wrap .footer-center li{
+    float: left;
+    margin-left: 60px;
+    width: 70px;
+}
+.footer-wrap .footer-center li:first-child{
+    margin-left: 0;
+}
+.footer-wrap .footer-center li:first-child + li + li{
+    width: 90px;
+}
+.footer-wrap .footer-center li h4{
+    line-height: 1;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.footer-wrap .footer-center li a{
+    display: block;
+    line-height: 1;
+    float: left;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 17px;
 }
 
 
+/*--------------------copyright----------------*/
+.copyright-wrap{
+    background: #f2f2f2;
+}
+.copyright-wrap .row{
+    height: 60px;
+}
+.copyright-wrap p{
+    float: left;
+    line-height: 60px;
+    color: #888888;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.copyright-right-box{
+    float: right;
+    margin-bottom: 0;
+}
+.copyright-right-box li{
+    line-height: 60px;
+    float: left;
+    margin-bottom: 0;
+    padding: 0 8px;
+}
+.copyright-right-box li a{
+    font-size: 12px;
+    color: #555555;
+}
+.copyright-right-box i{
+    margin:0 10px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 60px;
+    line-height: 60px;
+    color: #aaaaaa;
+    font-size: 20px;
+    cursor: pointer;
+}
+.copyright-right-box i.icon-weixin{
+    margin-right: 0;
+}
+
+/*--------------------right-function----------------*/
+.right-function-box{
+    position: fixed;
+    overflow: hidden;
+    width: 45px;
+    height: 187px;
+    right: 0;
+    top: 50%;
+    margin-top: -94px;
+    z-index: 9;
+}
+.right-function-box a{
+    border-top: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-top: -1px;
+    background: #fff;
+    text-align: center;
+    line-height: 43px;
+    color: #cf191b;
+    font-size: 26px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.right-function-box a.icon-top{
+    margin-top: 10px;
+}
