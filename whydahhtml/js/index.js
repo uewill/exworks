@@ -14,7 +14,7 @@
             pagination: '.pagination',
             paginationClickable: true,
             preventLinks: false,
-            autoplay: 3000,
+            autoplay: 5000,
         })
 
         $('.arrow-left').on('click', function(e) {
@@ -33,7 +33,7 @@
             pagination: '#js_solution_pagination',
             paginationClickable: true,
             preventLinks: false,
-            autoplay: 3000,
+            autoplay: 6000,
         })
     }
 
@@ -43,7 +43,7 @@
             pagination: '#js_customer_case_pagination',
             paginationClickable: true,
             preventLinks: false,
-            autoplay: 3000,
+            autoplay: 7000,
         })
     }
 
