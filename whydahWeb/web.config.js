@@ -27,6 +27,11 @@ exports.WEB_CONFIG = {
             name: 'customerCaseDetail',
             title: "织布鸟-客户案例详情",
             css: ['customerCase']
+        },
+        serviceSuppot: {
+            module: 4,
+            name: 'serviceSuppot',
+            title: "织布鸟-服务支持"
         }
     }
 }
