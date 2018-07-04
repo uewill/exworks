@@ -1,0 +1,187 @@
+@charset 'utf-8';
+
+/*---- filter ----*/
+.filter-box{
+    padding: 25px 0;
+}
+.filter-box ul{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.filter-box ul.type-ul{
+    margin-bottom: 20px;
+}
+.filter-box ul h3{
+    display: block;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #555555;
+    float: left;
+}
+.filter-box ul li{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #555555;
+    cursor: pointer;
+}
+.filter-box ul li.active, .filter-box ul li:hover{
+    background: #cf191b;
+    color: #fff;
+}
+
+/*---- customer-case ----*/
+.customer-case-wrap{
+    background: #f5f5f5;
+}
+.customer-case-box{
+    padding: 50px 0 30px;
+}
+.customer-case-wrap h3{
+    text-align: center;
+    color: #555555;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.customer-case-wrap h2{
+    display: block;
+    height: 70px;
+    line-height: 70px;
+}
+.customer-case-wrap h2 p{
+    display: inline;
+    padding-left: 10px;
+    border-left: 4px solid #cf191b;
+    color: #555555;
+    font-size: 18px;
+}
+.customer-case-wrap h2 p span{
+    font-size: 14px;
+    color: #555555;
+}
+.customer-case-wrap ul li{
+    position: relative;
+    width: 386px;
+    height: 430px;
+    float: left;
+    margin-right: 21px;
+    margin-bottom: 21px;
+    background: #fff;
+}
+.customer-case-wrap ul li:nth-child(3n+1){
+    margin-right: 0;
+}
+.customer-case-wrap ul li i{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height:  210px;
+    background-image: url(../img/customerCase/customer_case_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.customer-case-wrap ul li i div.customer-case-label{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 210px;
+    padding: 40px 57px;
+    background: rgba(0, 0, 0, 0.6);
+    -moz-transition: opacity 0.5s; 
+    -webkit-transition: opacity 0.5s; 
+    -o-transition: opacity 0.5s;
+}
+.customer-case-wrap ul li i:hover div.customer-case-label{
+    opacity: 1;
+    -moz-transition: opacity 0.5s; 
+    -webkit-transition: opacity 0.5s; 
+    -o-transition: opacity 0.5s;
+}
+.customer-case-wrap ul li i div.customer-case-label p{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-left: 3px solid #cf191b;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+}
+.customer-case-wrap ul li i div.customer-case-label span{
+    display: block;
+    float: left;
+    width: 84px;
+    height: 28px;
+    line-height: 26px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.customer-case-wrap ul li i div.customer-case-label span:nth-child(3n+1){
+    margin-right: 0px;
+}
+
+.customer-case-msg{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    height: 220px;
+}
+.customer-case-msg h5{
+    font-size: 16px;
+    color: #333333;
+    line-height: 1;
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.customer-case-msg p{
+    line-height: 200%;
+    color: #555555;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.customer-case-msg a{
+    display: block;
+    position: absolute;
+    width: 346px;
+    height: 36px;
+    line-height: 36px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -173px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    color: #555555;
+    font-size: 12px;
+}
+.customer-case-wrap .look-more{
+    display: block;
+    margin: 10px auto 50px;
+    width: 200px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 36px;
+    border: 1px solid #cf191b;
+    color: #cf191b;
+    font-size: 14px;
+}
