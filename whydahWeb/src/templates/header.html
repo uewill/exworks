@@ -10,32 +10,28 @@
         <meta name="renderer" content="webkit">
         <link rel="stylesheet" type="text/css" href="./css/global.css">
         <link rel="stylesheet" type="text/css" href="./css/<%-name%>.css">
-<% if(typeof css !== 'undefined'){ -%>
-<% css.forEach(function(item){ -%>
+<% if(typeof css !== 'undefined'){ css.forEach(function(item){ -%>
         <link rel="stylesheet" type="text/css" href="./css/<%-item%>.css">
-<% }) -%>
-<% } -%>
+<%  })} -%>
         <link rel="stylesheet" href="https://at.alicdn.com/t/font_711143_713i1ju7faj.css">
         <script type="text/javascript" src="./js/jquery.min.js"></script>
-<% if(typeof js !== 'undefined'){ -%>
-<% js.forEach(function(item){ -%>
+<% if(typeof js !== 'undefined'){ js.forEach(function(item){ -%>
         <script type="text/javascript" src="./js/<%-item%>.js"></script>
-<% }) -%>
-<% } -%>
+<% })} -%>
     </head>
     <body>
         <!--header start-->
         <div class="container header-box" id="top_header">
             <i class="logo"></i>
             <ul>
-                <li class="active"><a href="">首页</a></li>
-                <li><a href="">四大领域</a></li>
-                <li><a href="">解决方案</a></li>
-                <li><a href="">客户案例</a></li>
-                <li><a href="">服务支持</a></li>
-                <li><a href="">招商合作</a></li>
-                <li><a href="">媒体中心</a></li>
-                <li><a href="">关于织布鸟</a></li>
+                <li<%if(module == 0){%> class="active"<%}%>><a href="">首页</a></li>
+                <li<%if(module == 1){%> class="active"<%}%>><a href="">四大领域</a></li>
+                <li<%if(module == 2){%> class="active"<%}%>><a href="">解决方案</a></li>
+                <li<%if(module == 3){%> class="active"<%}%>><a href="">客户案例</a></li>
+                <li<%if(module == 4){%> class="active"<%}%>><a href="">服务支持</a></li>
+                <li<%if(module == 5){%> class="active"<%}%>><a href="">招商合作</a></li>
+                <li<%if(module == 6){%> class="active"<%}%>><a href="">媒体中心</a></li>
+                <li<%if(module == 7){%> class="active"<%}%>><a href="">关于织布鸟</a></li>
             </ul>
         </div>
         <!--header end-->

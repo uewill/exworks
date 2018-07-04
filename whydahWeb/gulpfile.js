@@ -43,16 +43,16 @@ gulp.task('gulpEjs', ["distClear"], function() {
 gulp.task('copyFile', ['gulpEjs'], function() {
     console.log('3. 复制资源文件');
     console.log('   复制css文件');
-    gulp.src(config.PATH.src + "/css/*")
+    gulp.src(config.PATH.src + "/css/**/*")
         .pipe(gulp.dest(config.PATH.dist + "/css/"));
     console.log('   复制js文件');
-    gulp.src(config.PATH.src + "/js/*")
+    gulp.src(config.PATH.src + "/js/**/*")
         .pipe(gulp.dest(config.PATH.dist + "/js/"));
     console.log('   复制img文件');
-    gulp.src(config.PATH.src + "/img/*")
+    gulp.src(config.PATH.src + "/img/**/*")
         .pipe(gulp.dest(config.PATH.dist + "/img/"));
     console.log('   复制fonts文件');
-    gulp.src(config.PATH.src + "/fonts/*")
+    gulp.src(config.PATH.src + "/fonts//**/*")
         .pipe(gulp.dest(config.PATH.dist + "/fonts/"));
 });
 

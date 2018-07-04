@@ -12,16 +12,21 @@ exports.WEB_CONFIG = {
     },
     EJS: {
         index: {
+            module: 0,
             name: 'index',
             title: "织布鸟",
+            js: ['idangerous.swiper.min']
         },
         customerCase: {
-            name: 'index',
+            module: 3,
+            name: 'customerCase',
             title: "织布鸟-客户案例",
         },
         customerCaseDetail: {
-            name: 'index',
+            module: 3,
+            name: 'customerCaseDetail',
             title: "织布鸟-客户案例详情",
+            css: ['customerCase']
         }
     }
 }
