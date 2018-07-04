@@ -20,18 +20,32 @@ exports.WEB_CONFIG = {
         customerCase: {
             module: 3,
             name: 'customerCase',
-            title: "织布鸟-客户案例",
+            title: "客户案例",
+            path: '首页<i>／</i>客户案例',
         },
         customerCaseDetail: {
             module: 3,
             name: 'customerCaseDetail',
-            title: "织布鸟-客户案例详情",
-            css: ['customerCase']
+            title: "客户案例详情",
+            css: ['customerCase'],
+            path: '首页<i>／</i>客户案例<i>／</i>详情',
         },
         serviceSuppot: {
             module: 4,
             name: 'serviceSuppot',
-            title: "织布鸟-服务支持"
+            title: "服务支持"
+        },
+        technicalClassify: {
+            module: 4,
+            name: 'technicalClassify',
+            title: '技术支持',
+            path: '首页<i>／</i>服务支持<i>／</i>技术支持',
+        },
+        afterSale: {
+            module: 4,
+            name: 'afterSale',
+            title: '售后服务',
+            path: '首页<i>／</i>服务支持<i>／</i>售后服务',
         }
     }
 }

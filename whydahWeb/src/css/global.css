@@ -81,6 +81,24 @@ button:hover{
     font-size: 12px;
     color: #888888;
 }
+.path-wrap h2 > i{
+    padding: 0 5px;
+}
+
+/*---- detail-title ----*/
+.detail-title-box{
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+}
+.detail-title-box > h1{
+    color: #fff;
+    font-size: 30px;
+}
+.technicalClassify{
+    background: url(../img/technicalClassify/technicalClassify_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
 
 /*---- footer ----*/
 .footer-wrap{
@@ -287,4 +305,55 @@ button:hover{
 }
 .right-function-box a.icon-top{
     margin-top: 10px;
+}
+
+/*---- contact-us ----*/
+.contact-us-box{
+    padding: 50px 0;
+    text-align: center;
+}
+.contact-us-box > h2{
+    line-height: 1;
+    font-size: 30px;
+    color: #555;
+    padding-bottom: 30px;
+}
+.contact-us-box > .contact-us-ul{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.contact-us-box > .contact-us-ul > li{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-right: 100px;
+}
+.contact-us-box > .contact-us-ul > li:first-child{
+    margin-right: 50px;
+    margin-left: 80px;
+}
+.contact-us-box > .contact-us-ul > li > i{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 42px;
+    color: #555555;
+}
+.contact-us-box > .contact-us-ul > li > i.icon-dianhua1{
+    padding-top: 5px;
+}
+.contact-us-box > .contact-us-ul > li > i.icon-youjian{
+    padding-top: 5px;
+}
+.contact-us-box > .contact-us-ul > li >.icon-weibo{
+    padding-top: 3px;
+}
+.contact-us-box > .contact-us-ul > li > span{
+    font-size: 18px;
+    color: #555;
 }
