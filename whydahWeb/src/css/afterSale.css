@@ -1,3 +1,23 @@
 @charset 'utf-8';
 
-/*---- banner ----*/
+.afterSale{
+    background: url(../img/afterSale/afterSale_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/*---- policy ----*/
+.policy-box{
+    padding-top: 30px;
+}
+.policy-box > .left{
+    float: left;
+    margin-right: 10px;
+}
+.policy-box > .policy-title{
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    height: 290px;
+    background: #f5f5f5;
+    text-align: center;
+}
