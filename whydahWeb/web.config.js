@@ -46,6 +46,12 @@ exports.WEB_CONFIG = {
             name: 'afterSale',
             title: '售后服务',
             path: '首页<i>／</i>服务支持<i>／</i>售后服务',
+        },
+        document: {
+            module: 4,
+            name: 'document',
+            title: '技术支持',
+            path: '首页<i>／</i>服务支持<i>／</i>技术支持',
         }
     }
 }

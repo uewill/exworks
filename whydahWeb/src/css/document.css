@@ -1,0 +1,118 @@
+@charset 'utf-8';
+
+.document{
+    background: url(../img/technicalClassify/technicalClassify_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/*---- document ----*/
+.document-wrap{
+    padding: 20px 0 50px;
+    background: #f5f5f5;
+}
+.left-document-box{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    background: #fff;
+    width: 200px;
+    margin-right: 20px;
+    height: 700px;
+    padding-top: 34px;
+}
+.left-document-box > li{
+    cursor: pointer;
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    color: #555555;
+    line-height: 35px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.left-document-box > li.active, .left-document-box > li:hover{
+    padding-left: 38px;
+    border-left: 2px solid #cf191b;
+    color: #cf191b;
+}
+.right-document-box{
+    position: relative;
+    overflow: hidden;
+    float: right;
+    width: 980px;
+    height: 700px;
+    background: #fff;
+}
+.right-document-box > ul{
+    padding: 0 30px;
+    height: 630px;
+    position: relative;
+    overflow: hidden;
+}
+.right-document-box > ul > li{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.right-document-box > ul > li > p{
+    float: left;
+    width: 630px;
+    color: #333333;
+    font-size: 14px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.right-document-box > ul > li.title > p{
+    font-weight: bold;
+}
+.right-document-box > ul > li > span{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 100px;
+    color: #333333;
+    font-size: 14px;
+}
+.right-document-box > ul > li.title > span{
+    font-weight: bold;
+}
+.right-document-box > ul > li > a{
+    display: block;
+    float: right;
+    width: 56px;
+    height: 30px;
+    line-height: 28px;
+    margin: 20px 0;
+    text-align: center;
+    color: #cf191b;
+    border: 1px solid #cf191b;
+}
+.right-document-box > ul > li.title > a:hover, .right-document-box > ul > li.title > a{
+    color: #333333!important;
+    font-weight: bold;
+    border: 0;
+    line-height: 30px;
+}
+.right-document-box > ul > li > a:hover{
+    background: #cf191b;
+    color: #fff!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
