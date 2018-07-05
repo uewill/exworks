@@ -52,6 +52,25 @@ exports.WEB_CONFIG = {
             name: 'document',
             title: '技术支持',
             path: '首页<i>／</i>服务支持<i>／</i>技术支持',
+        },
+        train: {
+            module: 4,
+            name: 'train',
+            title: '织布鸟培训',
+            path: '首页<i>／</i>服务支持<i>／</i>织布鸟培训',
+        },
+        question: {
+            module: 4,
+            name: 'question',
+            title: '技术支持',
+            path: '首页<i>／</i>服务支持<i>／</i>技术支持',
+            css: ['document'],
+        },
+        questionDetail: {
+            module: 4,
+            name: 'questionDetail',
+            title: '技术支持',
+            path: '首页<i>／</i>服务支持<i>／</i>技术支持<i>／</i>F&Q详情',
         }
     }
 }
