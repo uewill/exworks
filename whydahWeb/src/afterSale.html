@@ -1,166 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<%include ./templates/header.html%>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>售后服务</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-        <meta name="keywords" content="keywords">
-        <meta itemprop="description" name="description" content="description" />
-        <meta name="renderer" content="webkit">
-        <link rel="stylesheet" type="text/css" href="./css/global.css">
-        <link rel="stylesheet" type="text/css" href="./css/afterSale.css">
-        <link rel="stylesheet" href="https://at.alicdn.com/t/font_711143_kn4e97ieid.css">
-        <script type="text/javascript" src="./js/jquery.min.js"></script>
-    </head>
-    <body>
-        <!--header start-->
-        <div class="container header-box" id="top_header">
-            <i class="logo"></i>
-            <ul>
-                <li><a href="">首页</a></li>
-                <li><a href="">四大领域</a></li>
-                <li><a href="">解决方案</a></li>
-                <li><a href="">客户案例</a></li>
-                <li class="active"><a href="">服务支持</a></li>
-                <li><a href="">招商合作</a></li>
-                <li><a href="">媒体中心</a></li>
-                <li><a href="">关于织布鸟</a></li>
-            </ul>
-        </div>
-        <!--header end-->
+<%include ./templates/path.html%>
 
-        <!--path start-->
-        <div class="wrap path-wrap">
-            <div class="container">
-                <h2>首页<i>／</i>服务支持<i>／</i>售后服务</h2>
-            </div>
-        </div>
-        <!--path end-->
-
-        <!--detail-title start-->
-        <div class="wrap detail-title-box afterSale">
-            <h1>售后服务</h1>
-        </div>
-        <!--detail-title end-->
+<%include ./templates/detailTitle.html%>
 
         <!--policy start-->
         <div class="wrap">
             <div class="container policy-box">
                 <div class="policy-title left">
-                    
+                    <i class="iconfont icon-wodetuihuanhuo"></i>
+                    <h3>换货政策</h3>
+                </div>
+                <div class="policy-detail right">
+                    <p>支持两种换货政策，同型号产品免费换新：</p>
+                    <p>1、收到货后，当场验货，如发现开箱即损（产品损坏），请您拒签。如有个别产品损坏的，请在收货单上标注损坏产品的型号和数量，并立即反馈，经核查情况属实，免费换新。</p>
+                    <p>2、签收日期起15日内，因产品本身质量问题，在商品完好、外包完好及附件齐全的前提下，提交申请且经华歌技术部门检测验证后可免费换新。非产品本身质量问题，不予退换货。</p>
+                </div>
+            </div>
+            <div class="container policy-box">
+                <div class="policy-detail left">
+                    <p class="p-padding-bottom">商品售出后，华歌针对所售产品进行相应的保修期限，具体可参考附件表。 温馨提示：</p>
+                    <p class="p-padding-bottom">A. 商品自签收日期起，如在保修期内出现非人为损坏，消费者可享受免费维修服务。</p>
+                    <p>B. 此服务仅限华歌售出主营和平台类商品。</p>
+                </div>
+                <div class="policy-title right">
+                    <i class="iconfont icon-weixiu"></i>
+                    <h3>换货政策</h3>
                 </div>
             </div>
         </div>
         <!--policy end-->
 
-        <!--contact-us start-->
-        <div class="container contact-us-box">
-            <h2>联系我们</h2>
-            <ul class="contact-us-ul">
-                <li>
-                    <i class="iconfont icon-dianhua1"></i>
-                    <span>028-67879323</span>
-                </li>
-                <li>
-                    <i class="iconfont icon-youjian"></i>
-                    <span>邮件</span>
-                </li>
-                <li>
-                    <i class="iconfont icon-weixin"></i>
-                    <span>微信</span>
-                </li>
-                <li>
-                    <i class="iconfont icon-weibo"></i>
-                    <span>微博</span>
-                </li>
-            </ul>
+        <!-- process start -->
+        <div class="wrap process-wrap">
+            <h2>售后服务流程</h2>
+            <div class="process-img"></div>
         </div>
-        <!--contact-us end-->
+        <!-- process end -->
 
-        <!--footer start-->
-        <dir class="wrap footer-wrap">
-            <div class="container">
-                <ul class="qr-code-box">
-                    <li>
-                        <i class="gongzonghao"></i>
-                        <h6>织布鸟公众号</h6>
-                    </li>
-                    <li>
-                        <i class="fuwuhao"></i>
-                        <h6>织布鸟服务号</h6>
-                    </li>
-                    <i class="logo"></i>
-                </ul>
-                <ul class="footer-center">
-                    <li>
-                        <h4>四大栏目</h4>
-                        <a href="">智能家居</a>
-                        <a href="">智能影音</a>
-                        <a href="">智慧小区</a>
-                        <a href="">只能商业</a>
-                    </li>
-                    <li>
-                        <h4>解决方案</h4>
-                        <a href="">智能平台</a>
-                        <a href="">超能网络</a>
-                        <a href="">安防监控</a>
-                        <a href="">定制影院</a>
-                        <a href="">多区音乐</a>
-                        <a href="">多区视频</a>
-                        <a href="">灯光窗帘</a>
-                    </li>
-                    <li>
-                        <h4>案例中心</h4>
-                        <a href="">住宅类案例鉴赏</a>
-                        <a href="">办公类案例鉴赏</a>
-                        <a href="">商业类案例鉴赏</a>
-                        <a href="">酒店类案例鉴赏</a>
-                    </li>
-                    <li>
-                        <h4>媒体中心</h4>
-                        <a href="">公司公告</a>
-                        <a href="">公司活动</a>
-                        <a href="">行业动态</a>
-                        <a href="">行业新闻</a>
-                    </li>
-                </ul>
-                <div class="footer-quick-answer">
-                    <h4>织布鸟<span>2小时</span>快速应答</h4>
-                    <input type="text" placeholder="你的姓名">
-                    <input type="text" placeholder="你的电话">
-                    <input type="text" placeholder="免费索取资料">
-                    <button type="submit">现在开始</button>
-                </div>
-            </div>
-        </dir>
-        <!--footer end-->
+<%include ./templates/contactUs.html%>
 
-        <!--copyright start-->
-        <div class="wrap copyright-wrap">
-            <div class="container">
-                <p>版权所有 2012-2017 四川织布鸟智能科技有限公司.保留一切权利. 蜀ICP备16011679号.由Whydah Itelligence 提供技术支持</p>
-                <ul class="copyright-right-box">
-                    <li><a href="">网站所有者信息</a></li>
-                    <li><a href="">责任声明</a></li>
-                    <li><a href="">隐私说明</a></li>
-                    <li><a href="">关于我们</a></li>
-                    <i class="iconfont icon-weibo"></i>
-                    <i class="iconfont icon-weixin"></i>
-                </ul>
-            </div>
-        </div>
-        <!--copyright end-->
-
-        <!--right-function start-->
-        <div class="right-function-box">
-            <a class="iconfont icon-people"></a>
-            <a class="iconfont icon-shuxie"></a>
-            <a class="iconfont icon-bodadianhua"></a>
-            <a href="#top_header" class="iconfont icon-top"></a>
-        </div>
-        <!--right-function end-->
-
-    </body>
-</html>
-<script type="text/javascript" src="./js/afterSale.js"></script>
+<%include ./templates/footer.html%>

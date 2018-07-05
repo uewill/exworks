@@ -95,10 +95,6 @@ button:hover{
     color: #fff;
     font-size: 30px;
 }
-.technicalClassify{
-    background: url(../img/technicalClassify/technicalClassify_bg.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
 
 /*---- footer ----*/
 .footer-wrap{
