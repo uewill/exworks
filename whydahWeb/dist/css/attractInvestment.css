@@ -1,1 +1,542 @@
-attractInvestment.css
+@charset 'utf-8';
+
+h3.small-title{
+    text-align: center;
+    line-height: 1;
+    font-size: 18px;
+    color: #cf191b;
+    padding-bottom: 25px;
+}
+
+/*---- title ----*/
+.title-wrap{
+    height: 420px;
+    background: url(../img/attractInvestment/attractInvestment_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 140px;
+    text-align: center;
+}
+.title-wrap > h2{
+    font-size: 30px;
+    color: #fff;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.title-wrap > p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.title-wrap > button{
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    background: #cf191b;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/*---- project-advantage ----*/
+#project-advantage{
+    padding-bottom: 50px;
+    overflow: inherit;
+}
+.attract-investment-nav{
+    position: absolute;
+    width: 90px;
+    overflow: hidden;
+    left: -140px;
+    top: 110px;
+    z-index: 9;
+    background: #fff;
+}
+.attract-investment-nav > li{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 1px;
+    background: #e9e9e9;
+    cursor: pointer;
+}
+.attract-investment-nav > li.active, .attract-investment-nav > li:hover{
+    background: #cf191b;
+    color: #fff;
+}
+
+#project-advantage > ol{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#project-advantage > ol > li{
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+#project-advantage > ol > li > i{
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+#project-advantage > ol > li > i.icon-1{
+    background: url(../img/attractInvestment/project_advantage_1.jpg) no-repeat 50% 50%;
+}
+#project-advantage > ol > li > i.icon-2{
+    background: url(../img/attractInvestment/project_advantage_2.jpg) no-repeat 50% 50%;
+}
+#project-advantage > ol > li > i.icon-3{
+    background: url(../img/attractInvestment/project_advantage_3.jpg) no-repeat 50% 50%;
+}
+#project-advantage > ol > li > i.icon-4{
+    background: url(../img/attractInvestment/project_advantage_4.jpg) no-repeat 50% 50%;
+}
+#project-advantage > ol > li > h3{
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    line-height: 1;
+    padding: 18px 0 10px;
+}
+#project-advantage > ol > li > p{
+    font-size: 14px;
+    color: #555555;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+/*---- ecological-system ----*/
+#ecological-system{
+    background: #f5f5f5;
+    padding-bottom: 50px;
+}
+#ecological-system p{
+    color: #555555;
+    font-size: 16px;
+    text-indent: 40px;
+    line-height: 200%;
+}
+
+/*---- model ----*/
+#model{
+    padding-bottom: 50px;
+}
+#model > ul.model-ul{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+}
+#model > ul > li{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+#model > ul > li > h4{
+    display: block;
+    float: left;
+    width: 218px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #555;
+    border-right: 1px solid #e1e1e1;
+}
+#model > ul > li > span{
+    display: block;
+    float: left;
+    width: 245px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #555;
+    border-left: 1px solid #e1e1e1;
+}
+#model > ul > li > span:first-of-type{
+    border-left: 0px!important;
+}
+#model > ul > li.long-li > span{
+    width: 980px;
+    border-bottom: 1px solid #e1e1e1;
+}
+#model > ul > li.color-li > span{
+    color: #cf191b;
+}
+#model > ul > li.bg-li{
+    background: #f5f5f5;
+}
+#model > ul > li.height-li > h4{
+    height: 100px;
+    line-height: 100px;
+}
+#model > ul > li.height-li > span{
+    display: table;
+    height: 100px;
+    line-height: 180%;
+}
+#model > ul > li.height-li > span > i{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #555;
+}
+#model > ul > li.more-height-li > h4{
+    height: 120px;
+    line-height: 120px;
+}
+#model > ul > li.more-height-li > span{
+    height: 120px;
+}
+#model > ul > li.bottom-li > h4{
+    height: 153px;
+    line-height: 153px;
+}
+#model > ul > li.bottom-li > span{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+    line-height: 180%;
+    text-align: left;
+    padding: 20px 30px;
+    height: auto;
+}
+#model > ul > li.bottom-li > span > p{
+    font-size: 16px;
+    color: #555;
+}
+
+/*---- support ----*/
+#support{
+    background: #f5f5f5;
+}
+#support > ul{
+    padding-top: 15px;
+}
+#support > ul > li{
+    margin-bottom: 50px;
+    border-left: 1px solid #dddddd;
+    width: 460px;
+    float: left;
+    padding: 0 85px;
+}
+#support > ul > li:nth-child(3n+1){
+    width: 370px;
+    border-left: 0;
+    padding-left: 0;
+}
+#support > ul > li:nth-child(3n){
+    width: 370px;
+    padding-right: 0;
+}
+#support > ul > li > h5{
+    line-height: 1;
+    font-size: 20px;
+    color: #555;
+    padding-bottom: 5px;
+}
+#support > ul > li > p{
+    line-height: 170%;
+    font-size: 16px;
+    color: #555;
+}
+
+/*---- process ----*/
+#process{
+    padding-bottom: 50px;
+}
+#process > ul > li{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+}
+#process > ul > li:first-child{
+    margin-left: 0;
+}
+#process > ul > li > i{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 224px;
+    height: 166px;
+}
+#process > ul > li > i.icon-1{
+    background: url(../img/attractInvestment/process_bg_1.png) no-repeat 50% 50%;
+}
+#process > ul > li > i.icon-2{
+    background: url(../img/attractInvestment/process_bg_2.png) no-repeat 50% 50%;
+}
+#process > ul > li > i.icon-3{
+    background: url(../img/attractInvestment/process_bg_3.png) no-repeat 50% 50%;
+}
+#process > ul > li > i.icon-4{
+    background: url(../img/attractInvestment/process_bg_4.png) no-repeat 50% 50%;
+}
+#process > ul > li > i.icon-5{
+    background: url(../img/attractInvestment/process_bg_5.png) no-repeat 50% 50%;
+}
+
+
+/*---- case ----*/
+.swiper-container {
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    direction:ltr;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+    z-index:1;
+}
+.swiper-wrapper {
+    position:relative;
+    width:100%;
+    -webkit-transition-property:-webkit-transform, left, top;
+    -webkit-transition-duration:0s;
+    -webkit-transform:translate3d(0px,0,0);
+    -webkit-transition-timing-function:ease;
+
+    -moz-transition-property:-moz-transform, left, top;
+    -moz-transition-duration:0s;
+    -moz-transform:translate3d(0px,0,0);
+    -moz-transition-timing-function:ease;
+
+    -o-transition-property:-o-transform, left, top;
+    -o-transition-duration:0s;
+    -o-transform:translate3d(0px,0,0);
+    -o-transition-timing-function:ease;
+    -o-transform:translate(0px,0px);
+
+    -ms-transition-property:-ms-transform, left, top;
+    -ms-transition-duration:0s;
+    -ms-transform:translate3d(0px,0,0);
+    -ms-transition-timing-function:ease;
+
+    transition-property:transform, left, top;
+    transition-duration:0s;
+    transform:translate3d(0px,0,0);
+    transition-timing-function:ease;
+
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+}
+.swiper-slide {
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-wp8-horizontal {
+    -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+    -ms-touch-action: pan-x;
+}
+
+#case{
+    height: 458px;
+    background: url(../img/attractInvestment/case_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#case h2{
+    color: #fff;
+}
+
+#case .container{
+    overflow: initial;
+}
+
+#js_banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 260px;
+}
+#js_banner .banner-item{
+    width: 100%;
+    height: 260px;
+}
+
+#case .banner-item > img{
+    display: block;
+    width: 386px;
+    height: 260px;
+    margin-left: 20px;
+    float: left;
+}
+#case .banner-item > img:first-child{
+    margin-left: 0;
+}
+
+.pagination, .solution-pagination {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom: -40px;
+    width: 100%;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.swiper-active-switch {
+    background: #fff;
+}
+
+/*---- answer-questions ----*/
+#answer-questions{
+    padding-bottom: 30px;
+}
+#answer-questions > ul{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+#answer-questions > ul > li{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid #e1e1e1;
+}
+#answer-questions > ul > li > p{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+#answer-questions > ul > li > p.questions{
+    padding: 20px 0 15px;
+}
+#answer-questions > ul > li > p.answer{
+    padding-bottom: 20px;
+}
+#answer-questions > ul > li > p > i{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 18px;
+}
+#answer-questions > ul > li > p.questions > i{
+    background: #cf191b;
+}
+#answer-questions > ul > li > p.answer > i{
+    background: #555555;
+}
+#answer-questions > ul > li > p > span{
+    display: block;
+    width: 1182px;
+    padding-left: 28px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+}
+#answer-questions > ul > li > p > span:first-of-type{
+    padding-left: 10px;
+}
+#answer-questions > ul > li > p.answer > span{
+    height: auto;
+    line-height: 200%;
+    font-weight: normal;
+    margin-top: -2px;
+}
+#answer-questions > ul > li > p > a{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #888;
+}
+
+/*---- join ----*/
+#join{
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
+.train-register-ul{
+    position: relative;
+    overflow: hidden;
+    width: 780px;
+    margin: 0 auto;
+}
+.train-register-ul > li{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 380px;
+}
+.train-register-ul > li:nth-child(2n){
+    margin-left: 20px;
+}
+.train-register-ul > li > input, .train-register-ul > li > select{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 34px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #888;
+}
+.train-register-ul > li > button{
+    width: 100%;
+    background: #cf191b;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.train-register-ul > li > input::-webkit-input-placeholder{
+    color: #888;
+}
+.train-register-ul > li > input::-moz-placeholder{
+    color: #888;
+}
+.train-register-ul > li > input::-ms-placeholder{
+    color: #888;
+}
+
+
+
+

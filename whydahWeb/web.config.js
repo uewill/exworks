@@ -77,6 +77,7 @@ exports.WEB_CONFIG = {
             name: 'attractInvestment',
             title: '招商合作',
             path: '首页<i>／</i>招商合作',
+            js: ['idangerous.swiper.min']
         }
     }
 }

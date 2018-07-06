@@ -12,10 +12,13 @@
         var nav = $(".attract-investment-nav").offset().top;
         var projectAdvantage = $("#project-advantage").offset().top;
         var ecologicalSystem = $("#ecological-system").offset().top;
-        // var productValue = $("#product-value").offset().top;
-        // var productFunction = $("#product-function").offset().top;
-        // var productAdvantage = $("#product-advantage").offset().top;
-        // var productPrice = $("#product-price").offset().top;
+        var model = $("#model").offset().top;
+        var support = $("#support").offset().top;
+        var processName = $("#process").offset().top;
+        var caseName = $("#case").offset().top;
+        var answerQuestions = $("#answer-questions").offset().top;
+        var join = $("#join").offset().top;
+        var contactUs = $(".contact-us-box").offset().top;
         $(window).scroll(function() {
             if ($(this).scrollTop() > nav) {
                 $(".attract-investment-nav").css({
@@ -41,28 +44,44 @@
                 $(".attract-investment-nav").find("li").removeClass("active").eq(1).addClass("active");
             }
 
-            // if ($(this).scrollTop() > productValue - 200) {
-            //     $(".attract-investment-nav").find("li").removeClass("active").eq(2).addClass("active");
-            // }
+            if ($(this).scrollTop() > model - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(2).addClass("active");
+            }
 
-            // if ($(this).scrollTop() > productFunction - 200) {
-            //     $(".attract-investment-nav").find("li").removeClass("active").eq(3).addClass("active");
-            // }
+            if ($(this).scrollTop() > support - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(3).addClass("active");
+            }
 
-            // if ($(this).scrollTop() > productAdvantage - 200) {
-            //     $(".attract-investment-nav").find("li").removeClass("active").eq(4).addClass("active");
-            // }
+            if ($(this).scrollTop() > processName - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(4).addClass("active");
+            }
 
-            // if ($(this).scrollTop() > productPrice - 200) {
-            //     $(".attract-investment-nav").find("li").removeClass("active").eq(5).addClass("active");
-            // }
+            if ($(this).scrollTop() > caseName - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(5).addClass("active");
+            }
+
+            if ($(this).scrollTop() > answerQuestions - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(6).addClass("active");
+            }
+
+            if ($(this).scrollTop() > join - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(7).addClass("active");
+            }
+
+            if ($(this).scrollTop() > contactUs - 50) {
+                $(".attract-investment-nav").find("li").removeClass("active").eq(8).addClass("active");
+            }
         });
     }
 
     var navAnimate = function() {
         $(".attract-investment-nav").on("click", "li", function() {
-            debugger;
-            var id = "#" + $(this).attr("title");
+            var id;
+            if ($(this).index() == 8) {
+                id = "." + $(this).attr("title");
+            } else {
+                id = "#" + $(this).attr("title");
+            }
             var offsetNum = $(id).offset().top;
             $("html,body").animate({
                 scrollTop: offsetNum
@@ -70,9 +89,20 @@
         })
     }
 
+    var bannerSwiperInit = function() {
+        var bannerSwiper = new Swiper('#js_banner', {
+            loop: true,
+            pagination: '.pagination',
+            paginationClickable: true,
+            preventLinks: false,
+            autoplay: 5000,
+        })
+    }
+
     /*------ 执行方法 ------*/
     $(function() {
         navInit();
         navAnimate();
+        bannerSwiperInit();
     });
 }());
