@@ -55,7 +55,7 @@
     line-height: 70px;
     border-bottom: 1px solid #e8e8e8;
 }
-.right-document-box > ul > li > p{
+.right-document-box > ul > li > p, .right-document-box > ul > li > a{
     float: left;
     width: 630px;
     color: #333333;
@@ -79,7 +79,7 @@
 .right-document-box > ul > li.title > span{
     font-weight: bold;
 }
-.right-document-box > ul > li > a{
+.right-document-box > ul > li > div{
     display: block;
     float: right;
     width: 56px;
@@ -89,14 +89,17 @@
     text-align: center;
     color: #cf191b;
     border: 1px solid #cf191b;
+    cursor: pointer;
 }
-.right-document-box > ul > li.title > a:hover, .right-document-box > ul > li.title > a{
+.right-document-box > ul > li.title > div:hover, .right-document-box > ul > li.title > div{
     color: #333333!important;
     font-weight: bold;
     border: 0;
     line-height: 30px;
+    background: #fff;
+    cursor: none;
 }
-.right-document-box > ul > li > a:hover{
+.right-document-box > ul > li > div:hover{
     background: #cf191b;
     color: #fff!important;
 }
