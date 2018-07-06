@@ -11,6 +11,7 @@ a:hover{
 }
 button:hover{
     background: #e81d1f!important;
+    cursor: pointer;
 }
 
 .theme-color{
@@ -33,6 +34,13 @@ button:hover{
 }
 .clear-both{
     clear: both;
+}
+h2.top50-bottom30{
+    text-align: center;
+    line-height: 1;
+    padding: 50px 0 30px;
+    color: #555;
+    font-size: 30px;
 }
 
 /*---- header ----*/

@@ -71,6 +71,12 @@ exports.WEB_CONFIG = {
             name: 'questionDetail',
             title: '技术支持',
             path: '首页<i>／</i>服务支持<i>／</i>技术支持<i>／</i>F&Q详情',
+        },
+        attractInvestment: {
+            module: 5,
+            name: 'attractInvestment',
+            title: '招商合作',
+            path: '首页<i>／</i>招商合作',
         }
     }
 }
