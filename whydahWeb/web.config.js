@@ -78,6 +78,13 @@ exports.WEB_CONFIG = {
             title: '招商合作',
             path: '首页<i>／</i>招商合作',
             js: ['idangerous.swiper.min']
+        },
+        mediaCenter: {
+            module: 6,
+            name: 'mediaCenter',
+            title: '媒体中心',
+            path: '首页<i>／</i>媒体中心',
+            css: ['document'],
         }
     }
 }
