@@ -144,6 +144,13 @@ exports.WEB_CONFIG = {
             title: '隐私说明',
             path: '首页<i>／</i>隐私说明',
             css: ['siteOwner'],
+        },
+        dutyAvowal: {
+            module: 8,
+            name: 'dutyAvowal',
+            title: '责任声明',
+            path: '首页<i>／</i>责任声明',
+            css: ['siteOwner'],
         }
     }
 }
