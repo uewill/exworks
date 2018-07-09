@@ -104,6 +104,13 @@ exports.WEB_CONFIG = {
             title: '下载中心',
             path: '首页<i>／</i>下载中心',
             css: ['document'],
+        },
+        contactUS: {
+            module: 7,
+            name: 'contactUS',
+            title: '联系我们',
+            path: '首页<i>／</i>联系我们',
+            address: '公司地址：成都市高新区天府二街368号绿地之窗写字楼B栋1101-1102号'
         }
     }
 }
