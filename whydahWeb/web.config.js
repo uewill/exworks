@@ -89,7 +89,7 @@ exports.WEB_CONFIG = {
         mediaCenterDetail: {
             module: 6,
             name: 'mediaCenterDetail',
-            title: '媒体中心',
+            title: '媒体中心详情',
             path: '首页<i>／</i>媒体中心<i>／</i>详情',
         }
     }
