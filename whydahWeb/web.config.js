@@ -91,6 +91,12 @@ exports.WEB_CONFIG = {
             name: 'mediaCenterDetail',
             title: '媒体中心详情',
             path: '首页<i>／</i>媒体中心<i>／</i>详情',
+        },
+        aboutUS: {
+            module: 7,
+            name: 'aboutUS',
+            title: '关于织布鸟',
+            path: '首页<i>／</i>公司介绍',
         }
     }
 }
