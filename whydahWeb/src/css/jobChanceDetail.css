@@ -1,0 +1,85 @@
+@charset 'utf-8';
+
+.jobChanceDetail{
+    background: url(../img/jobChance/jobChance_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/*---- jobChanceDetail ----*/
+.jobChance-detail-box{
+    min-height: 700px;
+    height: auto;
+    padding: 30px;
+}
+.jobChance-detail-box > h2{
+    height: 70px;
+    line-height: 69px;
+    width: 100%;
+    background: #fafafa;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+.jobChance-detail-type{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.jobChance-detail-type > p{
+    margin-left: 150px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+.jobChance-detail-type > p:first-of-type{
+    margin-left: 150px!important;
+}
+.jobChance-detail-type > p.first-p{
+    margin-right: 110px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 0;
+}
+.jobChance-detail-type > p > span, .jobChance-detail-ol > h3{
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    line-height: 1;
+}
+.jobChance-detail-ol{
+    padding-left: 150px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.jobChance-detail-ol > h3{
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+.jobChance-detail-ol > li{
+    line-height: 1;
+    font-size: 14px;
+    color: #333;
+    text-indent: 70px;
+    padding-bottom: 15px;
+}
+.jobChance-detail-box > button{
+    margin-left: 220px;
+    display: block;
+    width: 160px;
+    height: 36px;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+    font-size: 14px;
+    background: #cf191b;
+}
+
+
+
+
+
+

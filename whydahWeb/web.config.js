@@ -111,6 +111,20 @@ exports.WEB_CONFIG = {
             title: '联系我们',
             path: '首页<i>／</i>联系我们',
             address: '公司地址：成都市高新区天府二街368号绿地之窗写字楼B栋1101-1102号'
+        },
+        jobChance: {
+            module: 7,
+            name: 'jobChance',
+            title: '就业机会',
+            path: '首页<i>／</i>就业机会',
+            css: ['document'],
+        },
+        jobChanceDetail: {
+            module: 7,
+            name: 'jobChanceDetail',
+            title: '就业机会详情',
+            path: '首页<i>／</i>就业机会<i>／</i>详情',
+            css: ['document'],
         }
     }
 }
