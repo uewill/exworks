@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+/*---- privacy ----*/
+.site-owner-box > p.bold > span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #cf191b;
+}
+.site-owner-box > p{
+    padding: 2px 0;
+}

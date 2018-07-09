@@ -137,6 +137,13 @@ exports.WEB_CONFIG = {
             name: 'siteOwner',
             title: '网站所有者信息',
             path: '首页<i>／</i>网站所有者信息',
+        },
+        privacy: {
+            module: 8,
+            name: 'privacy',
+            title: '隐私说明',
+            path: '首页<i>／</i>隐私说明',
+            css: ['siteOwner'],
         }
     }
 }
