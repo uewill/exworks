@@ -125,6 +125,12 @@ exports.WEB_CONFIG = {
             title: '就业机会详情',
             path: '首页<i>／</i>就业机会<i>／</i>详情',
             css: ['document'],
+        },
+        siteMap: {
+            module: 8,
+            name: 'siteMap',
+            title: '网站地图',
+            path: '首页<i>／</i>网站地图',
         }
     }
 }
