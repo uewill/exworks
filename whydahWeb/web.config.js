@@ -131,6 +131,12 @@ exports.WEB_CONFIG = {
             name: 'siteMap',
             title: '网站地图',
             path: '首页<i>／</i>网站地图',
+        },
+        siteOwner: {
+            module: 8,
+            name: 'siteOwner',
+            title: '网站所有者信息',
+            path: '首页<i>／</i>网站所有者信息',
         }
     }
 }
