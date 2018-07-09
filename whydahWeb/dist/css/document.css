@@ -97,7 +97,7 @@
     border: 0;
     line-height: 30px;
     background: #fff;
-    cursor: none;
+    cursor: default;
 }
 .right-document-box > ul > li > div:hover{
     background: #cf191b;

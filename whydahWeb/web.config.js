@@ -97,6 +97,13 @@ exports.WEB_CONFIG = {
             name: 'aboutUS',
             title: '关于织布鸟',
             path: '首页<i>／</i>公司介绍',
+        },
+        downloadCenter: {
+            module: 7,
+            name: 'downloadCenter',
+            title: '下载中心',
+            path: '首页<i>／</i>下载中心',
+            css: ['document'],
         }
     }
 }

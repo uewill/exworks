@@ -372,6 +372,7 @@ h2.top50-bottom30{
     height: 70px;
 }
 .turn-page-box > li{
+    background: #fff;
     display: inline-block;
     min-width: 36px;
     height: 36px;
