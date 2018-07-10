@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+/*---- solution ----*/
+.customer-case-msg p{
+    -webkit-line-clamp: 1;
+}
+.customer-case-wrap ul li i div.customer-case-label > b{
+    display: block;
+    font-size: 62px;
+    color: #fff;
+    line-height: 130px;
+    text-align: center;
+}

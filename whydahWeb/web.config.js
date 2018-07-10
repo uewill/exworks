@@ -151,6 +151,20 @@ exports.WEB_CONFIG = {
             title: '责任声明',
             path: '首页<i>／</i>责任声明',
             css: ['siteOwner'],
+        },
+        solution: {
+            module: 2,
+            name: 'solution',
+            title: "解决方案",
+            path: '首页<i>／</i>解决方案',
+            css: ['customerCase'],
+        },
+        solutionDetail: {
+            module: 2,
+            name: 'solutionDetail',
+            title: "解决方案详情",
+            path: '首页<i>／</i>解决方案<i>／</i>详情',
+            css: ['customerCase'],
         }
     }
 }

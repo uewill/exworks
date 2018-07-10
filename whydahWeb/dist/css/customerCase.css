@@ -173,6 +173,13 @@
     color: #555555;
     font-size: 12px;
 }
+.customer-case-msg a:hover{
+    background: #cf191b;
+    color: #fff!important;
+    -moz-transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -o-transition: background 0.2s;
+}
 .customer-case-wrap .look-more{
     display: block;
     margin: 10px auto 50px;
