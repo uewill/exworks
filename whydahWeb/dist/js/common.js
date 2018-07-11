@@ -37,7 +37,6 @@
     var scrollToTop = function() {
         var windowHeight = $(window).height();
         $(window).scroll(function() {
-            console.log(windowHeight);
             if ($(this).scrollTop() > windowHeight) {
                 $(".right-function-box a").eq(3).removeClass("hidden");
             } else {

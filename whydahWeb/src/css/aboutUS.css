@@ -207,11 +207,22 @@
     padding-bottom: 50px;
 }
 .brand-bg{
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    height: 295px;
     border: 1px solid #e1e1e1;
-    padding: 20px 20px;
-    background: url(../img/index/bland_bg.png) no-repeat 50% 50%;
+    padding: 20px 19px 10px;
+}
+.brand-bg > li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 185px;
+    height: 50px;
+    background: url(../img/index/brand_1.jpg) no-repeat 50% 50%;
+}
+.brand-bg > li:nth-child(6n+1){
+    margin-left: 0;
 }
 
 .contact-us-wrap{
