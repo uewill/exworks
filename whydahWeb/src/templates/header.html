@@ -15,13 +15,14 @@
         <link rel="stylesheet" type="text/css" href="./css/<%-name%>.css">
         <link rel="stylesheet" href="https://at.alicdn.com/t/font_711143_kn4e97ieid.css">
         <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/common.js"></script>
 <% if(typeof js !== 'undefined'){ js.forEach(function(item){ -%>
         <script type="text/javascript" src="./js/<%-item%>.js"></script>
 <% })} -%>
     </head>
     <body>
         <!--header start-->
-        <div class="container header-box" id="top_header">
+        <div class="container header-box">
             <i class="logo"></i>
             <ul>
                 <li<%if(module == 0){%> class="active"<%}%>><a href="index.html">首页</a></li>
