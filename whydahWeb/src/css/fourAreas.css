@@ -1,0 +1,202 @@
+@charset 'utf-8';
+
+/*---- banner ----*/
+.banner-wrap{
+    height: 600px;
+    background: url(../img/fourAreas/banner.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/*---- count ----*/
+.count-wrap{
+    padding-top: 50px;
+    height: 370px;
+    background: #f5f5f5;
+}
+.count-box{
+    height: 320px;
+    background: url(../img/fourAreas/count_bg.jpg) no-repeat 50% 50%;
+}
+.count-content{
+    float: right;
+    margin-right: 48px;
+    min-width: 245px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.count-content > p{
+    line-height: 1;
+    color: #cf191b;
+    font-size: 20px;
+    padding-top: 35px;
+}
+.count-content > h2{
+    line-height: 1;
+    color: #cf191b;
+    font-size: 32px;
+    padding: 10px 0 20px;
+}
+.count-content > input{
+    display: block;
+    width: 245px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 34px;
+    padding-left: 10px;
+    margin: 0 auto 15px;
+    font-size: 14px;
+    color: #555;
+}
+.count-content > input::-webkit-input-placeholder{
+    color: #888;
+}
+.count-content > input::-moz-placeholder{
+    color: #888;
+}
+.count-content > input::-ms-placeholder{
+    color: #888;
+}
+.count-content > button{
+    display: block;
+    width: 245px;
+    margin: 0 auto;
+    background: #cf191b;
+    border-radius: 5px;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.count-content > span{
+    display: block;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+/*---- 720 ----*/
+.view-720-wrap{
+    padding-top: 50px;
+    height: 450px;
+    background: #f5f5f5;
+}
+.view-720-box{
+    height: 400px;
+    background: url(../img/fourAreas/720_bg.jpg) no-repeat 50% 50%;
+}
+.view-720-box > h2{
+    padding: 40px 0 15px 50px;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+.view-720-box > a{
+    display: block;
+    margin-left: 50px;
+    width: 180px;
+    height: 32px;
+    border: 1px solid #fff;
+    border-radius: 32px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.view-720-box > a:hover{
+    color: #fff!important;
+}
+
+/*---- config ----*/
+.config-wrap{
+    background: #f5f5f5;
+}
+.config-box > h2{
+    font-size: 30px;
+    color: #cf191b;
+    line-height: 1;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.config-box > h5{
+    font-size: 18px;
+    color: #555555;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.config-list{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.config-list > ul{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.config-list > ul > li{
+    width: 171px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color: #555555;
+    line-height: 50px;
+}
+.config-list > ul > li:nth-child(1),.config-list > ul > li:nth-child(4),.config-list > ul > li:nth-child(7){
+    width: 172px;
+}
+.config-list > ul > li:hover, .config-list > ul > li.active{
+    background: #cf191b;
+    color: #fff;
+    cursor: pointer;
+}
+.config-list > ol{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+.config-list > ol > li{
+    display: none;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.config-list > ol > li.active{
+    display: block;
+}
+.config-list > ol > li > img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.config-list > ol > li > p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+

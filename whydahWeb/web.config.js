@@ -165,6 +165,12 @@ exports.WEB_CONFIG = {
             title: "解决方案详情",
             path: '首页<i>／</i>解决方案<i>／</i>详情',
             css: ['customerCase'],
+        },
+        fourAreas: {
+            module: 1,
+            name: 'fourAreas',
+            title: "四大领域",
+            js: ['idangerous.swiper.min']
         }
     }
 }
