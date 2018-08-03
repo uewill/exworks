@@ -193,6 +193,269 @@
     color: #fff;
 }
 
+/*---- security ----*/
+.security-list > ul > li{
+    width: 240px!important;
+}
+
+/*---- case ----*/
+.case-box > a{
+    display: block;
+    width: 200px;
+    height: 32px;
+    border: 1px solid #cf191b;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 32px;
+    font-size: 12px;
+    color: #cf191b;
+    margin: 0 auto 30px;
+}
+.case-box > ul{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.case-box > ul > li{
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.case-box > ul > li > a > img{
+    display: block;
+    width: 448px;
+    height: 218px;
+    margin-top: 4px;
+}
+.case-box > ul > li:nth-child(1) > a > img{
+    width: 296px;
+    height: 440px;
+    margin-right: 4px;
+    margin-top: 0px;
+}
+.case-box > ul > li:nth-child(2n) > a > img{
+    margin-right: 4px;
+}
+.case-box > ul > li:nth-child(2) > a > img, .case-box > ul > li:nth-child(3) > a > img{
+    margin-top: 0px;
+}
+
+
+/*---- cinema ----*/
+.cinema-box{
+    background: url(../img/fourAreas/cinema_bg.jpg) no-repeat 50% 50%;
+}
+.cinema-box > h2{
+    width: 370px;
+    float: right;
+    padding: 40px 50px 15px 0;
+}
+.cinema-box > a{
+    float: left;
+    margin-left: 830px;
+}
+
+/*---- brand ----*/
+.brand-list > ul > li{
+    height: 50px;
+    position: relative;
+}
+.brand-list > ul > li > img{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*---- service ----*/
+.service-box > ul{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.service-box > ul > li{
+    float: left;
+    width: 297px;
+    height: 420px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.service-box > ul > li > h3{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    line-height: 420px;
+}
+.service-box > ul > li > p{
+    display: none;
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 30px;
+    line-height: 200%;
+}
+.service-box > ul > li:hover > h3{
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.service-box > ul > li:hover > p{
+    display: block;
+}
+.service-box > ul > li:first-child{
+    margin-left: 0;
+}
+.service-box > ul > li.faxian{
+    background: url(../img/fourAreas/service_1.jpg) no-repeat 50% 50%;
+}
+.service-box > ul > li.fangan{
+    background: url(../img/fourAreas/service_2.jpg) no-repeat 50% 50%;
+}
+.service-box > ul > li.shigong{
+    background: url(../img/fourAreas/service_3.jpg) no-repeat 50% 50%;
+}
+.service-box > ul > li.fuwu{
+    background: url(../img/fourAreas/service_4.jpg) no-repeat 50% 50%;
+}
+
+/*---- banner ----*/
+.swiper-container {
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    direction:ltr;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+    z-index:1;
+}
+.swiper-wrapper {
+    position:relative;
+    width:100%;
+    -webkit-transition-property:-webkit-transform, left, top;
+    -webkit-transition-duration:0s;
+    -webkit-transform:translate3d(0px,0,0);
+    -webkit-transition-timing-function:ease;
+
+    -moz-transition-property:-moz-transform, left, top;
+    -moz-transition-duration:0s;
+    -moz-transform:translate3d(0px,0,0);
+    -moz-transition-timing-function:ease;
+
+    -o-transition-property:-o-transform, left, top;
+    -o-transition-duration:0s;
+    -o-transform:translate3d(0px,0,0);
+    -o-transition-timing-function:ease;
+    -o-transform:translate(0px,0px);
+
+    -ms-transition-property:-ms-transform, left, top;
+    -ms-transition-duration:0s;
+    -ms-transform:translate3d(0px,0,0);
+    -ms-transition-timing-function:ease;
+
+    transition-property:transform, left, top;
+    transition-duration:0s;
+    transform:translate3d(0px,0,0);
+    transition-timing-function:ease;
+
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+}
+.swiper-slide {
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-wp8-horizontal {
+    -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+    -ms-touch-action: pan-x;
+}
+
+#js_banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+#js_banner .banner-item{
+    width: 100%;
+    height: 400px;
+    background: url(../img/fourAreas/object_banner.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.pagination, .solution-pagination {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom:20px;
+    width: 100%;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #595d61;
+    margin: 0 5px;
+    border: 3px solid #868b92;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.swiper-active-switch {
+    background: #fff;
+}
+#js_banner .arrow-left{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -35px;
+    width: 36px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#js_banner .arrow-left i, #js_banner .arrow-right i{
+    line-height: 70px;
+    font-size: 24px;
+    color: #fff;
+}
+#js_banner .arrow-right {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -35px;
+    width: 36px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.object-box{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
 
 
 
