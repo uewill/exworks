@@ -2,6 +2,18 @@
 h2.top50-bottom30{
     color: #cf191b;
 }
+button.click-btn{
+    display: block;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #cf191b;
+    border-radius: 5px;
+    margin: 0 auto 50px;
+}
 
 /*---- fourAreas-list ----*/
 .fourAreas-list-box{
