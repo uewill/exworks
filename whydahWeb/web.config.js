@@ -171,6 +171,12 @@ exports.WEB_CONFIG = {
             name: 'fourAreas',
             title: "四大领域",
             js: ['idangerous.swiper.min']
+        },
+        intelligentCommunity: {
+            module: 2,
+            name: 'intelligentCommunity',
+            title: "智慧小区",
+            path: '首页<i>／</i>四大领域<i>／</i>智慧小区',
         }
     }
 }
