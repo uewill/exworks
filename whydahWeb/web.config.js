@@ -177,6 +177,13 @@ exports.WEB_CONFIG = {
             name: 'intelligentCommunity',
             title: "智慧小区",
             path: '首页<i>／</i>四大领域<i>／</i>智慧小区',
+        },
+        smartHome: {
+            module: 2,
+            name: 'smartHome',
+            title: "智能家居",
+            path: '首页<i>／</i>四大领域<i>／</i>智能家居',
+            css: ['intelligentCommunity'],
         }
     }
 }
