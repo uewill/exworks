@@ -19,7 +19,7 @@
                 $(this).addClass("active").siblings().removeClass('active');
                 $(".right-function-popup-box").eq($(this).index()).addClass("right-function-popup-active").siblings().removeClass('right-function-popup-active');
                 $(".right-function-box").animate({
-                    right: 0
+                    left: 0
                 }, 300);
             }
         })
@@ -27,7 +27,7 @@
         /*关闭右侧功能*/
         $(".right-function-popup-header i").click(function() {
             $(".right-function-box").animate({
-                right: '-300px'
+                left: '-300px'
             }, 300, function() {
                 $(".right-function-box a").removeClass('active');
             });
