@@ -173,16 +173,23 @@ exports.WEB_CONFIG = {
             js: ['idangerous.swiper.min']
         },
         intelligentCommunity: {
-            module: 2,
+            module: 1,
             name: 'intelligentCommunity',
             title: "智慧小区",
             path: '首页<i>／</i>四大领域<i>／</i>智慧小区',
         },
         smartHome: {
-            module: 2,
+            module: 1,
             name: 'smartHome',
             title: "智能家居",
             path: '首页<i>／</i>四大领域<i>／</i>智能家居',
+            css: ['intelligentCommunity'],
+        },
+        smartPlayer: {
+            module: 1,
+            name: 'smartPlayer',
+            title: "智能影音",
+            path: '首页<i>／</i>四大领域<i>／</i>智能影音',
             css: ['intelligentCommunity'],
         }
     }
