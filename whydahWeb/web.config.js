@@ -15,13 +15,14 @@ exports.WEB_CONFIG = {
             module: 0,
             name: 'index',
             title: "织布鸟",
-            js: ['idangerous.swiper.min']
+            js: ['idangerous.swiper.min', 'index']
         },
         customerCase: {
             module: 3,
             name: 'customerCase',
             title: "客户案例",
             path: '首页<i>／</i>客户案例',
+            js: ['customerCase']
         },
         customerCaseDetail: {
             module: 3,
@@ -77,7 +78,7 @@ exports.WEB_CONFIG = {
             name: 'attractInvestment',
             title: '招商合作',
             path: '首页<i>／</i>招商合作',
-            js: ['idangerous.swiper.min']
+            js: ['idangerous.swiper.min', 'attractInvestment']
         },
         mediaCenter: {
             module: 6,
@@ -97,6 +98,7 @@ exports.WEB_CONFIG = {
             name: 'aboutUS',
             title: '关于织布鸟',
             path: '首页<i>／</i>公司介绍',
+            js: ['aboutUS']
         },
         downloadCenter: {
             module: 7,
@@ -165,12 +167,13 @@ exports.WEB_CONFIG = {
             title: "解决方案详情",
             path: '首页<i>／</i>解决方案<i>／</i>详情',
             css: ['customerCase'],
+            js: ['solutionDetail']
         },
         fourAreas: {
             module: 1,
             name: 'fourAreas',
             title: "四大领域",
-            js: ['idangerous.swiper.min']
+            js: ['idangerous.swiper.min', 'fourAreas']
         },
         intelligentCommunity: {
             module: 1,

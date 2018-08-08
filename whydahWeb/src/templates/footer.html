@@ -153,4 +153,8 @@
 
     </body>
 </html>
-<script type="text/javascript" src="./js/<%-name%>.js"></script>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/common.js"></script>
+<% if(typeof js !== 'undefined'){ js.forEach(function(item){ -%>
+        <script type="text/javascript" src="./js/<%-item%>.js"></script>
+<% })} -%>
