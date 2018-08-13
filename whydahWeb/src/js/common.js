@@ -11,7 +11,7 @@
     var clickFunc = function() {
         /*弹出右侧功能*/
         $(".right-function-box a").click(function() {
-            if ($(this).index() == 3) {
+            if ($(this).index() == 2) {
                 $("html,body").animate({
                     scrollTop: 0
                 }, 300);
@@ -38,9 +38,9 @@
         var windowHeight = $(window).height();
         $(window).scroll(function() {
             if ($(this).scrollTop() > windowHeight) {
-                $(".right-function-box a").eq(3).removeClass("hidden");
+                $(".right-function-box a").eq(2).removeClass("hidden");
             } else {
-                $(".right-function-box a").eq(3).addClass("hidden");
+                $(".right-function-box a").eq(2).addClass("hidden");
             }
         })
     }

@@ -100,7 +100,7 @@
 .swiper-active-switch {
     background: #fff;
 }
-#js_banner .arrow-left{
+#js_banner .arrow-left, #media-center-box .arrow-left{
     position: absolute;
     left: 20px;
     top: 50%;
@@ -110,12 +110,14 @@
     background: rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-#js_banner .arrow-left i, #js_banner .arrow-right i{
+#js_banner .arrow-left i, #js_banner .arrow-right i, #media-center-box .arrow-left i, #media-center-box .arrow-right i{
+    display: inline-block;
     line-height: 70px;
     font-size: 24px;
     color: #fff;
+    padding-top: 5px;
 }
-#js_banner .arrow-right {
+#js_banner .arrow-right, #media-center-box .arrow-right{
     position: absolute;
     right: 20px;
     top: 50%;
@@ -125,6 +127,20 @@
     background: rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+#js_media_center{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 290px;
+}
+ #media-center-box .arrow-right{
+    right: -20px;
+    margin-top: -15px;
+ }
+#media-center-box .arrow-left{
+    left: -20px;
+    margin-top: -15px;
+ }
 
 
 /*---- programa ----*/
@@ -333,6 +349,10 @@
 /*---- media-center ----*/
 .media-center-wrap{
     background: #f5f5f5;
+    padding-bottom: 50px;
+}
+#media-center-box{
+    width: 1312px;
 }
 .media-center-wrap > .container{
     overflow: initial;
@@ -364,7 +384,6 @@
     display: block;
     position: relative;
     width: 100%;
-    padding-bottom: 50px;
 }
 .media-content-ul li{
     background: #fff;
@@ -445,7 +464,138 @@
     margin-left: 0;
 }
 
+/*---- project ----*/
+.project-wrap{
+    background: #f5f5f5;
+}
+.project-box{
+    padding: 0 0 50px;
+}
 
+.customer-case-wrap ul li{
+    position: relative;
+    width: 386px;
+    height: 430px;
+    float: left;
+    margin-right: 21px;
+    background: #fff;
+}
+.customer-case-wrap ul li:nth-child(3n+1){
+    margin-right: 0;
+}
+.customer-case-wrap ul li i{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height:  210px;
+    background-image: url(../img/customerCase/customer_case_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.customer-case-wrap ul li i div.customer-case-label{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 210px;
+    padding: 40px 57px;
+    background: rgba(0, 0, 0, 0.6);
+    -moz-transition: opacity 0.5s; 
+    -webkit-transition: opacity 0.5s; 
+    -o-transition: opacity 0.5s;
+}
+.customer-case-wrap ul li i:hover div.customer-case-label{
+    opacity: 1;
+    -moz-transition: opacity 0.5s; 
+    -webkit-transition: opacity 0.5s; 
+    -o-transition: opacity 0.5s;
+}
+.customer-case-wrap ul li i div.customer-case-label p{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-left: 3px solid #cf191b;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+}
+.customer-case-wrap ul li i div.customer-case-label span{
+    display: block;
+    float: left;
+    width: 84px;
+    height: 28px;
+    line-height: 26px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.customer-case-wrap ul li i div.customer-case-label span:nth-child(3n+1){
+    margin-right: 0px;
+}
+
+.customer-case-msg{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    height: 220px;
+}
+.customer-case-msg h5{
+    font-size: 16px;
+    color: #333333;
+    line-height: 1;
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.customer-case-msg p{
+    line-height: 200%;
+    color: #555555;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.customer-case-msg a{
+    display: block;
+    position: absolute;
+    width: 346px;
+    height: 36px;
+    line-height: 36px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -173px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    color: #555555;
+    font-size: 12px;
+}
+.customer-case-msg a:hover{
+    background: #cf191b;
+    color: #fff!important;
+    -moz-transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -o-transition: background 0.2s;
+}
+.customer-case-wrap .look-more{
+    display: block;
+    margin: 10px auto 50px;
+    width: 200px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 36px;
+    border: 1px solid #cf191b;
+    color: #cf191b;
+    font-size: 14px;
+}
 
 
 

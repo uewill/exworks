@@ -17,13 +17,29 @@
             autoplay: 5000,
         })
 
-        $('.arrow-left').on('click', function(e) {
+        $('#js_banner .arrow-left').on('click', function(e) {
             e.preventDefault()
             bannerSwiper.swipePrev()
         })
-        $('.arrow-right').on('click', function(e) {
+        $('#js_banner .arrow-right').on('click', function(e) {
             e.preventDefault()
             bannerSwiper.swipeNext()
+        })
+    }
+
+    var mediaCenterSwiperInit = function() {
+        var mediaCenterSwiper = new Swiper('#js_media_center', {
+            loop: true,
+            preventLinks: false,
+        })
+
+        $('#media-center-box .arrow-left').on('click', function(e) {
+            e.preventDefault()
+            mediaCenterSwiper.swipePrev()
+        })
+        $('#media-center-box .arrow-right').on('click', function(e) {
+            e.preventDefault()
+            mediaCenterSwiper.swipeNext()
         })
     }
 
@@ -52,5 +68,6 @@
         bannerSwiperInit();
         solutionSwiperInit();
         customerCaseSwiperInit();
+        mediaCenterSwiperInit();
     });
 }());
