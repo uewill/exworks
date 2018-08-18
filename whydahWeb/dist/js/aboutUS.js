@@ -13,7 +13,7 @@
         var companyIntroduction = $("#company-introduction").offset().top;
         var memorabilia = $("#memorabilia").offset().top;
         var number = $("#number").offset().top;
-        var brand = $("#brand").offset().top;
+        // var brand = $("#brand").offset().top;
         var contactUs = $(".contact-us-box").offset().top;
         $(window).scroll(function() {
             if ($(this).scrollTop() > nav) {
@@ -44,12 +44,12 @@
                 $(".attract-investment-nav").find("li").removeClass("active").eq(2).addClass("active");
             }
 
-            if ($(this).scrollTop() > brand - 50) {
-                $(".attract-investment-nav").find("li").removeClass("active").eq(3).addClass("active");
-            }
+            // if ($(this).scrollTop() > brand - 50) {
+            //     $(".attract-investment-nav").find("li").removeClass("active").eq(3).addClass("active");
+            // }
 
             if ($(this).scrollTop() > contactUs - 50) {
-                $(".attract-investment-nav").find("li").removeClass("active").eq(4).addClass("active");
+                $(".attract-investment-nav").find("li").removeClass("active").eq(3).addClass("active");
             }
         });
     }
@@ -57,7 +57,7 @@
     var navAnimate = function() {
         $(".attract-investment-nav").on("click", "li", function() {
             var id;
-            if ($(this).index() == 4) {
+            if ($(this).index() == 3) {
                 id = "." + $(this).attr("title");
             } else {
                 id = "#" + $(this).attr("title");

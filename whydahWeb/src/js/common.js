@@ -36,12 +36,26 @@
 
     var scrollToTop = function() {
         var windowHeight = $(window).height();
+        var headerPosition = $(".header-wrap").offset().top;
         $(window).scroll(function() {
             if ($(this).scrollTop() > windowHeight) {
                 $(".right-function-box a").eq(2).removeClass("hidden");
             } else {
                 $(".right-function-box a").eq(2).addClass("hidden");
             }
+
+            if ($(this).scrollTop() > headerPosition) {
+                $(".header-wrap").css({
+                    position: "fixed",
+                    top: "0",
+                    left: "0"
+                })
+            } else {
+                $(".header-wrap").css({
+                    position: "relative",
+                })
+            }
+
         })
     }
 

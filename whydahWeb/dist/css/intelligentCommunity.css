@@ -61,14 +61,14 @@ button.click-btn{
 .fourAreas-list-box > li.bg-4.active{
     background: url(../img/intelligentCommunity/fourAreas_list_bg_3_active.png) no-repeat 50% 50%;
 }
-.fourAreas-list-box > li > h2{
+.fourAreas-list-box > li h2{
     line-height: 1;
     padding-top: 30px;
     padding-bottom: 10px;
     color: #555555;
     font-size: 22px;
 }
-.fourAreas-list-box > li.active > h2{
+.fourAreas-list-box > li.active h2{
     color: #fff;
 }
 
@@ -308,9 +308,6 @@ button.click-btn{
     height: 430px;
     float: left;
     background: #fff;
-    box-shadow: 0px 0px 10px #f0f0f0;
-    -webkit-box-shadow: 0px 0px 10px #f0f0f0;
-    -moz-box-shadow: 0px 0px 10px #f0f0f0;
 }
 .solution-item > li:first-child{
     margin-left: 0;
@@ -344,6 +341,15 @@ button.click-btn{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.solution-item > li .solution-item-detail h4 > a{
+   line-height: 1;
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+}
 .solution-item > li .solution-item-detail p{
     line-height: 1;
     padding-bottom: 15px;
@@ -353,13 +359,13 @@ button.click-btn{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.solution-item > li a{
+.solution-item > li > a{
     display: block;
     position: absolute;
     bottom: 20px;
     left: 50%;
-    margin-left: -135px;
-    width: 270px;
+    margin-left: -178px;
+    width: 356px;
     height: 36px;
     line-height: 36px;
     text-align: center;
@@ -368,7 +374,7 @@ button.click-btn{
     color: #555555;
     font-size: 12px;
 }
-.solution-item > li a:hover{
+.solution-item > li > a:hover{
     background: #cf191b;
     color: #fff!important;
     -moz-transition: background 0.2s;

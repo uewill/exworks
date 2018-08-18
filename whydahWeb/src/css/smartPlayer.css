@@ -89,6 +89,6 @@
 .solution-item > li{
     background: #f5f5f5;
 }
-.solution-item > li a{
+.solution-item > li > a{
     background: #fff;
 }

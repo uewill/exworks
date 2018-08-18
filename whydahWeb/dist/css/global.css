@@ -13,6 +13,11 @@ button:hover{
     background: #e81d1f!important;
     cursor: pointer;
 }
+a.jump-url{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .theme-color{
     color: #cf191b;
@@ -78,6 +83,11 @@ h2.top50-bottom30{
 }
 
 /*---- header ----*/
+.header-wrap{
+    z-index: 999;
+    overflow: initial;
+    background: #fff;
+}
 .header-box{
     overflow: initial;
 }
@@ -100,12 +110,13 @@ h2.top50-bottom30{
     float: left;
     height: 80px;
     padding: 0 5px;
+    width: 120px;
+    text-align: center;
 }
 .header-box > ul > li > a{
-    display: block;
+    display: inline-block;
     position: relative;
     overflow: hidden;
-    width: 110px;
     height: 50px;
     line-height: 50px;
     margin: 15px 0;
@@ -113,13 +124,16 @@ h2.top50-bottom30{
     font-size: 18px;
     color: #555555;
 }
+.header-box > ul > li > a.have-more{
+    width: 110px;
+}
 .header-box > ul > li.active > a{
     color: #cf191b;
-    border-bottom: 4px solid #cf191b;
+    border-bottom: 2px solid #cf191b;
 }
 .header-box > ul > li:hover > a{
     color: #cf191b;
-    border-bottom: 4px solid #cf191b;
+    border-bottom: 2px solid #cf191b;
 }
 .header-box > ul > li > ol{
     display: none;
@@ -417,9 +431,7 @@ h2.top50-bottom30{
     float: right;
 }
 .right-function-btn-box a{
-    border-top: 1px solid #f5f5f5;
-    border-left: 1px solid #f5f5f5;
-    border-bottom: 1px solid #f5f5f5;
+    border: 1px solid #f5f5f5;
     display: block;
     width: 45px;
     height: 45px;
@@ -431,6 +443,9 @@ h2.top50-bottom30{
     font-size: 26px;
     padding-top: 5px;
     cursor: pointer;
+}
+.right-function-btn-box a:first-child{
+    margin-top: 0;
 }
 .right-function-btn-box a:hover, .right-function-btn-box a.active{
     background: #cf191b;
@@ -634,7 +649,7 @@ h2.top50-bottom30{
     margin-right: 50px;
     margin-left: 80px;
 }
-.contact-us-box > .contact-us-ul > li > i{
+.contact-us-box > .contact-us-ul > li i{
     position: relative;
     display: block;
     width: 60px;
@@ -644,23 +659,23 @@ h2.top50-bottom30{
     font-size: 42px;
     color: #555555;
 }
-.contact-us-box > .contact-us-ul > li > i.icon-dianhua1{
+.contact-us-box > .contact-us-ul > li i.icon-dianhua1{
     padding-top: 5px;
 }
-.contact-us-box > .contact-us-ul > li > i.icon-youjian{
+.contact-us-box > .contact-us-ul > li i.icon-youjian{
     padding-top: 5px;
 }
-.contact-us-box > .contact-us-ul > li >.icon-weibo{
+.contact-us-box > .contact-us-ul > li .icon-weibo{
     padding-top: 3px;
 }
-.contact-us-box > .contact-us-ul > li > span{
+.contact-us-box > .contact-us-ul > li span{
     font-size: 18px;
     color: #555;
 }
-.contact-us-box > .contact-us-ul > li:hover > i, .contact-us-box > .contact-us-ul > li:hover > span{
+.contact-us-box > .contact-us-ul > li:hover > i, .contact-us-box > .contact-us-ul > li:hover span{
     color: #cf191b;
 }
-.contact-us-box > .contact-us-ul > li > i.icon-weixin > img{
+.contact-us-box > .contact-us-ul > li i.icon-weixin img{
     display: none;
     width: 86px;
     height: 86px;
@@ -672,7 +687,7 @@ h2.top50-bottom30{
     -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
 }
-.contact-us-box > .contact-us-ul > li > i.icon-weixin:hover > img {
+.contact-us-box > .contact-us-ul > li i.icon-weixin:hover > img {
     display: block;
 }
 
