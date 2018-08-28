@@ -84,7 +84,7 @@ h2.top50-bottom30{
 
 /*---- header ----*/
 .header-wrap{
-    z-index: 999;
+    z-index: 9;
     overflow: initial;
     background: #fff;
 }

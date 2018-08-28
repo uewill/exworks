@@ -16,10 +16,10 @@
         // var brand = $("#brand").offset().top;
         var contactUs = $(".contact-us-box").offset().top;
         $(window).scroll(function() {
-            if ($(this).scrollTop() > nav) {
+            if ($(this).scrollTop() > nav - 160) {
                 $(".attract-investment-nav").css({
                     position: "fixed",
-                    top: "0",
+                    top: "80px",
                     left: "50%",
                     "margin-left": "-740px",
                 })
