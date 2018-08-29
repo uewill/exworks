@@ -102,6 +102,9 @@
     background-size: 14px 14px;
 }
 #js_banner .arrow-left, #media-center-box .arrow-left{
+    line-height: 70px;
+    font-size: 24px;
+    color: #fff;
     position: absolute;
     left: 20px;
     top: 50%;
@@ -119,6 +122,9 @@
     padding-top: 5px;
 }
 #js_banner .arrow-right, #media-center-box .arrow-right{
+    line-height: 70px;
+    font-size: 24px;
+    color: #fff;
     position: absolute;
     right: 20px;
     top: 50%;
