@@ -98,7 +98,7 @@ h2.top50-bottom30{
     height: 80px;
     background: url(../img/logo.png) no-repeat;
     background-position: 50% 50%;
-    background-size: 193px 46px;
+    background-size: 147px 35px;
 }
 .header-box > ul{
     display: block;
@@ -201,14 +201,14 @@ h2.top50-bottom30{
 /*---- footer ----*/
 .footer-wrap{
     background: #eeeeee;
-    padding: 50px 0;
+    padding: 50px 0 35px;
     border-bottom: 1px solid #d8d8d8;
 }
 .footer-wrap .qr-code-box{
     float: left;
-    width: 260px;
     position: relative;
     overflow: hidden;
+    margin-right: 35px;
 }
 .footer-wrap .qr-code-box li{
     position: relative;
@@ -249,7 +249,7 @@ h2.top50-bottom30{
     background: url(../img/logo.png) no-repeat 50% 50%;
 }
 .footer-wrap .footer-quick-answer{
-    width: 246px;
+    width: 502px;
     float: right;
     position: relative;
     overflow: hidden;
@@ -265,7 +265,7 @@ h2.top50-bottom30{
     color: #cf191b;
 }
 .footer-wrap .footer-quick-answer > select{
-    width: 100%;
+    width: 246px;
     background: #fff;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -275,9 +275,12 @@ h2.top50-bottom30{
     margin-bottom: 15px;
     font-size: 14px;
     color: #888;
+    float: left;
+    margin-right: 10px;
 }
 .footer-wrap .footer-quick-answer input{
-    width: 100%;
+    display: block;
+    width: 246px;
     background: #fff;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -287,6 +290,10 @@ h2.top50-bottom30{
     margin-bottom: 15px;
     font-size: 14px;
     color: #555;
+    float: left;
+}
+.footer-wrap .footer-quick-answer input.marginRight10{
+    margin-right: 10px;
 }
 .footer-wrap .footer-quick-answer input::-webkit-input-placeholder{
     color: #888;
@@ -298,7 +305,7 @@ h2.top50-bottom30{
     color: #888;
 }
 .footer-wrap .footer-quick-answer button{
-    width: 100%;
+    width: 246px;
     background: #cf191b;
     border-radius: 5px;
     color: #fff;
@@ -306,14 +313,12 @@ h2.top50-bottom30{
     line-height: 36px;
     font-size: 14px;
     cursor: pointer;
+    float: left;
 }
 .footer-wrap .footer-center{
-    position: absolute;
+    float: left;
     width: 500px;
     overflow: hidden;
-    top: 0;
-    left: 50%;
-    margin-left: -250px;
     padding: 0 0 0 20px;
 }
 .footer-wrap .footer-center li{

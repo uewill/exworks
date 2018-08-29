@@ -492,7 +492,7 @@
 /*---- project ----*/
 .project-wrap{
     background: #f5f5f5;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .project-box{
     overflow: initial;
@@ -504,6 +504,7 @@
     height: 430px;
     float: left;
     margin-right: 21px;
+    margin-bottom: 20px;
     background: #fff;
 }
 .customer-case-wrap ul li:hover{
