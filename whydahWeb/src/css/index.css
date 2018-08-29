@@ -103,8 +103,6 @@
 }
 #js_banner .arrow-left, #media-center-box .arrow-left{
     line-height: 70px;
-    font-size: 24px;
-    color: #fff;
     position: absolute;
     left: 20px;
     top: 50%;
@@ -116,15 +114,20 @@
 }
 #js_banner .arrow-left i, #js_banner .arrow-right i, #media-center-box .arrow-left i, #media-center-box .arrow-right i{
     display: inline-block;
-    line-height: 70px;
-    font-size: 24px;
-    color: #fff;
-    padding-top: 5px;
+    width: 24px;
+    height: 24px;
+    margin: 23px 0;
+}
+.arrow-left i{
+    background: url(../img/arrow_left.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+.arrow-right i{
+    background: url(../img/arrow_right.png) no-repeat 50% 50%;
+    background-size: cover;
 }
 #js_banner .arrow-right, #media-center-box .arrow-right{
     line-height: 70px;
-    font-size: 24px;
-    color: #fff;
     position: absolute;
     right: 20px;
     top: 50%;
