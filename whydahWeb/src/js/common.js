@@ -32,11 +32,6 @@
                 $(".right-function-box a").removeClass('active');
             });
         })
-
-        /*点击logo*/
-        $(".header-box i.logo").click(function() {
-            window.location.href = 'http://www.baidu.com';
-        })
     }
 
     var scrollToTop = function() {

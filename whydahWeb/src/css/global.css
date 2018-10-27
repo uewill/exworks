@@ -91,15 +91,20 @@ h2.top50-bottom30{
 .header-box{
     overflow: initial;
 }
-.header-box > i.logo{
+.header-box > a.logo-box{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 80px;
+}
+.header-box > a.logo-box > i.logo{
     display: block;
     float: left;
     width: 200px;
     height: 80px;
     background: url(../img/logo.png) no-repeat;
-    background-position: 50% 50%;
+    background-position: 0% 50%;
     background-size: 147px 35px;
-    cursor: pointer;
 }
 .header-box > ul{
     display: block;
