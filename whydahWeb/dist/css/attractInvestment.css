@@ -137,13 +137,13 @@ h3.small-title{
     width: 100%;
     border: 1px solid #e1e1e1;
 }
-#model > ul > li{
+#model > ul li{
     position: relative;
     overflow: hidden;
     width: 100%;
     text-align: center;
 }
-#model > ul > li > h4{
+#model > ul li > h4{
     display: block;
     float: left;
     width: 218px;
@@ -153,7 +153,7 @@ h3.small-title{
     color: #555;
     border-right: 1px solid #e1e1e1;
 }
-#model > ul > li > span{
+#model > ul li > span{
     display: block;
     float: left;
     width: 245px;
@@ -163,46 +163,46 @@ h3.small-title{
     color: #555;
     border-left: 1px solid #e1e1e1;
 }
-#model > ul > li > span:first-of-type{
+#model > ul li > span:first-of-type{
     border-left: 0px!important;
 }
-#model > ul > li.long-li > span{
+#model > ul li.long-li > span{
     width: 980px;
     border-bottom: 1px solid #e1e1e1;
 }
-#model > ul > li.color-li > span{
+#model > ul li.color-li > span{
     color: #cf191b;
 }
-#model > ul > li.bg-li{
+#model > ul li.bg-li{
     background: #f5f5f5;
 }
-#model > ul > li.height-li > h4{
+#model > ul li.height-li > h4{
     height: 100px;
     line-height: 100px;
 }
-#model > ul > li.height-li > span{
+#model > ul li.height-li > span{
     display: table;
     height: 100px;
     line-height: 180%;
 }
-#model > ul > li.height-li > span > i{
+#model > ul li.height-li > span > i{
     display: table-cell;
     vertical-align: middle;
     font-size: 16px;
     color: #555;
 }
-#model > ul > li.more-height-li > h4{
+#model > ul li.more-height-li > h4{
     height: 120px;
     line-height: 120px;
 }
-#model > ul > li.more-height-li > span{
+#model > ul li.more-height-li > span{
     height: 120px;
 }
-#model > ul > li.bottom-li > h4{
+#model > ul li.bottom-li > h4{
     height: 153px;
     line-height: 153px;
 }
-#model > ul > li.bottom-li > span{
+#model > ul li.bottom-li > span{
     border-top: 1px solid #e1e1e1;
     border-bottom: 0;
     line-height: 180%;
@@ -210,9 +210,24 @@ h3.small-title{
     padding: 20px 30px;
     height: auto;
 }
-#model > ul > li.bottom-li > span > p{
+#model > ul li.bottom-li > span > p{
     font-size: 16px;
     color: #555;
+}
+.model-left{
+    float: left;
+    width: 218px;
+    position: relative;
+    overflow: hidden;
+}
+.model-right{
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+    height: 473px;
+    line-height: 180%;
+    padding-top: 180px;
 }
 
 /*---- support ----*/
