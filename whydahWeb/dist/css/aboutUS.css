@@ -120,12 +120,27 @@
 #memorabilia{
     padding-bottom: 18px;
 }
-#memorabilia > i{
+#memorabilia > .memorabilia-icon > i{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 302px;
+    background: url(../img/aboutUS/memorabilia_bg.png) no-repeat 50% 50%;
+}
+#memorabilia > .memorabilia-icon > b{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 48px;
+    background: url(../img/aboutUS/memorabilia_icon.png) no-repeat 50% 50%;
+}
+.memorabilia-icon{
     display: block;
     float: left;
     width: 20px;
-    height: 302px;
-    background: url(../img/aboutUS/memorabilia_bg.png) no-repeat 50% 50%;
+    padding: 0 1px;
+    position: relative;
+    overflow: hidden;
 }
 .left-memorabilia{
     position: relative;
